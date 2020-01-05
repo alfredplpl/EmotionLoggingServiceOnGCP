@@ -1,10 +1,8 @@
 def checkEmotion(request):
-    from flask import render_template
+    from flask import redirect
 
     # リクエストがポストかどうかの判別
     if request.method == 'GET':
-        return render_template("inputEmotion.html")
-    elif request.method == 'POST':
-        return render_template("result.html")
+        return redirect("https://docs.google.com/forms/d/e/1FAIpQLSdAIMClifUpkJJNGTmhukdPx47LboJZaKOK85tqwAuO3fgDwQ/viewform?usp=sf_link")
 
     return "Error!"
