@@ -1,5 +1,8 @@
 # ide env
-*.code-
+.idea
+
+# SAM images
+static/images/*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
