@@ -8,9 +8,5 @@
 !templates
 !templates/inputEmotion.html
 !templates/result.html
-!images
-!images/happy_man1.png
-!images/happy_man2.png
-!images/happy_man3.png
-!images/unhappy_man2.png
-!images/unhappy_man3.png
+!static
+!static/*
